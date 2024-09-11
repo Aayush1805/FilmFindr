@@ -5,7 +5,7 @@ let result = document.getElementById("result");
 //data from API
 let getMovie = () => {
     let movieName = movieNameRef.value.trim(); // Trims whitespace
-    let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
+    let url = `https://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
 
     // if no movie name entered by user
     if (movieName.length <= 0) {
